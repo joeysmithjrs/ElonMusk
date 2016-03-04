@@ -1,0 +1,112 @@
+/* CSS Document */
+@font-face {
+	font-family: "Aa"
+	src: url('../bebas 2/BebasNeue Bold.otf') format('opentype');	
+}
+
+@font-face {
+	font-family: "Bb"
+	src: url('../Airspace 3/Airstream.ttf') format('truetype');
+}
+
+body.page1 {
+	background-color: #99C3FF;
+	background-image: url(http://static4.businessinsider.com/image/51def664ecad04384c00000a/elon-musk-the-hyperloop-design-is-coming-august-12.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body.page2 {
+	background-color: #99C3FF;
+	background-image: url(http://img1.mxstatic.com/wallpapers/63b0339ffc1f6c4c8b15193438900cf2_large.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	font-family: "Aa", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h2 {
+	font-family: "Bb", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h1, h2{
+	font-size: 4em;
+	background-color: rgba(225,152,153,1.00);
+	margin-left: 10%;
+	margin-right: 50%;
+	margin: 0;
+	padding: 2%;
+	text-decoration: none;
+}
+.italics {
+	font-size: .25em;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(239,210,210,1.00);
+	
+}
+ul.pageTwo {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(239,210,210,1.00);
+	font-family: "Bb", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+}
+.text {
+	font-size: 1.5em;
+	letter-spacing: .15em;
+	font-weight: bold;
+}
+li{
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	background-color: rgba(239,210,210,1.00);
+	padding-top: 1%;
+	margin: 0;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	backgorund-color: rgba(131,159,182,1.00);
+	width: 90%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-top: 0;
+	margin-left: 0;
+	align-content: center;
+	text-decoraton: none;
+}
+.dropdown {
+	position: relative;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a {
+	background-color: rgba(164,62,63,1.00);
+	color: rgba(44,34,84,1.00);
+	padding: 10px 20px;
+	text-decoraton: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: rgba(195,173,173,1.00);
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-size: 1.1em;
+}
+.para {
+	background-color: rgba(189,212,237,0.78);
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 30%;
+	font-family: "Bb", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
